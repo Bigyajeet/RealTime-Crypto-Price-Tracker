@@ -11,11 +11,11 @@ This project is a responsive React application built with Redux Toolkit that sim
 
 ## 🛠️ Tech Stack
 
-* **React:** A JavaScript library for building user interfaces.
-* **Redux Toolkit:** A set of utilities that simplifies Redux development, including `createSlice` for defining reducers and actions, and `configureStore` for setting up the Redux store.
-* **Sample Crypto Data:** Mocked JSON data to simulate API responses.
-* **Styling:** CSS Modules for component-level styling to ensure modularity and avoid naming conflicts. (You can also mention if you used any CSS-in-JS library or a CSS framework like Tailwind CSS or Bootstrap if applicable).
-* **7D Chart:** Static SVG or image to represent the 7-day price trend.
+* **React** 
+* **Redux Toolkit**
+* **Sample Crypto Data**
+* **Styling**
+* **7D Chart**
 
 ## ⚙️ Setup Instructions
 
@@ -67,11 +67,7 @@ The data flow is as follows:
 4.  The reducers in `cryptoSlice.js` handle these actions and update the Redux store with the new data.
 5.  React components, connected to the Redux store using `useSelector` and optimized with selectors from `cryptoSelectors.js`, re-render automatically whenever the relevant data in the store changes.
 
-## 📹 Demo Video/GIF
 
-[![Watch the Demo](link_to_your_demo_image.png)](link_to_your_demo_video_or_gif)
-
-*(Replace `link_to_your_demo_image.png` with a placeholder image and `link_to_your_demo_video_or_gif` with the actual link to your 2-5 minute demo video or embedded GIF showcasing the UI layout, live updates, state flow, and your thought process.)*
 
 ## 🌟 Bonus Features (Implemented)
 
