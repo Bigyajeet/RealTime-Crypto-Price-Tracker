@@ -41,27 +41,31 @@ body {
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --cp-dark-blue: 214 32.4% 14.7%;
+    --cp-light-gray: 220 26.7% 94.7%;
+    --cp-teal: 169 62.7% 55.7%;
   }
   .dark {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 9%;
-    --secondary: 0 0% 14.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 14.9%;
-    --muted-foreground: 0 0% 63.9%;
-    --accent: 0 0% 14.9%;
-    --accent-foreground: 0 0% 98%;
+    --background: hsl(var(--cp-dark-blue));
+    --foreground: hsl(var(--cp-light-gray));
+    --card: hsl(var(--cp-dark-blue));
+    --card-foreground: hsl(var(--cp-light-gray));
+    --popover: hsl(var(--cp-dark-blue));
+    --popover-foreground: hsl(var(--cp-light-gray));
+    --primary: hsl(var(--cp-teal));
+    --primary-foreground: hsl(var(--cp-dark-blue));
+    --secondary: hsl(var(--cp-light-gray) / 0.1);
+    --secondary-foreground: hsl(var(--cp-light-gray));
+    --muted: hsl(var(--cp-light-gray) / 0.1);
+    --muted-foreground: hsl(var(--cp-light-gray) / 0.6);
+    --accent: hsl(var(--cp-light-gray) / 0.1);
+    --accent-foreground: hsl(var(--cp-teal));
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 14.9%;
-    --input: 0 0% 14.9%;
-    --ring: 0 0% 83.1%;
+    --border: hsl(var(--cp-light-gray) / 0.2);
+    --input: hsl(var(--cp-light-gray) / 0.1);
+    --ring: hsl(var(--cp-teal));
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
@@ -86,3 +90,4 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
